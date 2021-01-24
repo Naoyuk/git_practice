@@ -1,1 +1,12 @@
+# Learn about .gitignore file
+
+# comment
+
+# add '/' to end of the pattern to avoid recurse(like directory)
+build/
+
+# able to use glob pattern
 *.test
+
+# ignore all .pdf files in the doc/ directory
+doc/**/*.pdf
