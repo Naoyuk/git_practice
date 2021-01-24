@@ -2,7 +2,10 @@
 
 # comment
 
-# add '/' to end of the pattern to avoid recurse(like directory)
+# ignore specific file
+doc/.DS_Dtore
+
+# add '/' to first of the pattern to untrack directory
 build/
 
 # able to use glob pattern
