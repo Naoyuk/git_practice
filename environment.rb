@@ -1,4 +1,7 @@
 puts 'environment'
-def say_hi
-  puts 'hi'
+
+class Person
+  def say_hi
+    puts 'hi'
+  end
 end
